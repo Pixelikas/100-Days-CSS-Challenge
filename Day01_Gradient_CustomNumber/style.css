@@ -1,0 +1,92 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.frame {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+    overflow: hidden;
+    background: #fff;
+    color: #333333;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: linear-gradient(to bottom right, rebeccapurple, gold)
+
+}
+
+.center {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#numberTitle{
+	
+    display: flex;
+    justify-content: center;
+	
+}
+
+#numberPartOne{
+
+    background-color: #333333;
+    height: 100px;
+    width: 30px;
+    border-radius: 30px;
+	
+}
+
+#numberPartTwo{
+	
+    height: 43px;
+    width: 10px;
+    border: solid 28px #333333;
+    border-radius: 200px;
+    margin: 0px 7px 0px 7px;
+	
+}
+
+#numberPartThree{
+	
+	height: 43px;
+	width: 10px;
+	border: solid 28px #333333;
+	border-radius: 200px;
+	
+}
+
+#textOne{
+	
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-size: 70px;
+	font-weight: bolder;
+	text-align: center;
+	
+}
+
+#textTwo{
+	
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-size: 25px;
+	font-weight: bolder;
+	text-align: center;
+	
+}
+
+label{
+	
+	text-align: center;
+	
+}
