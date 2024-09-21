@@ -34,6 +34,7 @@
 
 #numberTitle{
 	
+    height: 90px;
     display: flex;
     justify-content: center;
 	
@@ -69,6 +70,7 @@
 
 #textOne{
 	
+    height: 75px;
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-size: 70px;
 	font-weight: bolder;
@@ -81,12 +83,7 @@
 	font-family: 'Open Sans', Helvetica, sans-serif;
 	font-size: 25px;
 	font-weight: bolder;
-	text-align: center;
-	
-}
-
-label{
-	
-	text-align: center;
+    display: flex;
+    justify-content: center;
 	
 }
