@@ -60,5 +60,44 @@
       animation: sun-goes-down 4s cubic-bezier(.4,0,.49,1) infinite;
 
     }
+
+    .side-left {
+
+      position: absolute;
+      top: 67px;
+      left: 35px;
+      height: 57px;
+      width: 116px;
+      background: #F4F4F4;
+      clip-path: polygon(0% 100%, 100% 100%, 50% 0%);
+      animation: pyramide-shading 4s cubic-bezier(.4,0,.49,1) infinite;
+
+    }
+    
+    .side-right {
+
+      position: absolute;
+      top: 67px;
+      left: 93px;
+      height: 57px;
+      width: 58px;
+      background: #DDDADA;
+      clip-path: polygon(30% 100%, 100% 100%, 0% 0%);
+      animation: pyramide-shading 4s cubic-bezier(.4,0,.49,1) infinite reverse;
+
+    }
+
+    .ground {
+
+      position: absolute;
+      z-index: 1;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 56px;
+      background: #F0DE75;
+      animation: fading-sand 4s cubic-bezier(.4,0,.49,1) infinite;
+
+    }
     
 }
