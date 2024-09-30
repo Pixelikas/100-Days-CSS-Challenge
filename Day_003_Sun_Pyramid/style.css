@@ -101,3 +101,24 @@
     }
     
 }
+
+@keyframes sun-goes-down {
+  0% {
+		background: #F57209;
+    transform: rotate(-70deg);
+  }
+	
+	30% {
+		background: #FFEF00;
+		transform: rotate(-28deg);
+	}
+	
+	70% {
+		background: #FFEF00;
+	}
+
+  100% {
+		background: #F57209;
+    transform: rotate(70deg);
+  }
+}
