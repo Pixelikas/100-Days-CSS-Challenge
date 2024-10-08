@@ -23,3 +23,102 @@
 	left: 90px;
 
 }
+
+.dot-one {
+
+	position: absolute;
+	z-index: 3;
+	width: 30px;
+	height: 30px;
+	top: 95px;
+	left: 95px;
+	background: #FFFFFF;
+	border-radius: 50%;
+	animation-fill-mode: both;
+	animation: animation-dot-one 2s cubic-bezier(.21,.98,.6,.99) infinite alternate;
+
+}
+
+.dot-two {
+
+	position: absolute;
+	z-index: 2;
+	width: 60px;
+	height: 60px;
+	top: 80px;
+	left: 80px;
+	background: #FFFFFF;
+	border-radius: 50%;
+	animation-fill-mode: both;
+	animation: animation-dot-two 2s cubic-bezier(.21,.98,.6,.99) infinite alternate;
+
+}
+
+.dot-three {
+
+	position: absolute;
+	z-index: 1;
+	width: 90px;
+	height: 90px;
+	top: 65px;
+	left: 65px;
+	background: #FFFFFF;
+	border-radius: 50%;
+	animation-fill-mode: both;
+	animation: animation-dot-three 2s cubic-bezier(.21,.98,.6,.99) infinite alternate;
+
+}
+
+@keyframes animation-dot-one {
+
+	0%, 70% {
+
+		box-shadow: 2px 2px 3px 2px rgba(0,0,0,0.2);
+		transform: scale(0);
+
+	}
+
+	100% {
+
+		box-shadow: 10px 10px 15px 0 rgba(0,0,0,0.3);
+		transform: scale(1);
+
+	}
+
+}
+
+@keyframes animation-dot-two {
+
+	0%, 40% {
+
+		box-shadow: 2px 2px 3px 2px rgba(0,0,0,0.2);
+		transform: scale(0);
+
+	}
+
+	100% {
+
+		box-shadow: 10px 10px 15px 0 rgba(0,0,0,0.3);
+		transform: scale(1);
+
+	}
+
+}
+
+@keyframes animation-dot-three {
+
+	0%, 10% {
+
+		box-shadow: 2px 2px 3px 2px rgba(0,0,0,0.2);
+		transform: scale(0);
+
+	}
+
+	100% {
+
+		box-shadow: 10px 10px 15px 0 rgba(0,0,0,0.3);
+		transform: scale(1);
+
+	}
+	
+}
