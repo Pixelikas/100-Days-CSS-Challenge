@@ -1,4 +1,4 @@
 # 100-Days-CSS-Challenge
 Day #04 -> Loading: The best are always websites that do not need a loading status. If they do, here would be a calming one.<br><br>
 
-![cozyloading](https://github.com/user-attachments/assets/95bc16f4-bc18-4515-8e25-8974be4f4c93)
+![cozyloading](https://github.com/user-attachments/assets/21f91225-5804-4211-8660-e70bdc8cd186)
