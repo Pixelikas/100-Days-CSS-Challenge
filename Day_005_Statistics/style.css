@@ -1,0 +1,39 @@
+.frame {
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	height: 400px;
+	margin-top: -200px;
+	margin-left: -200px;
+	border-radius: 2px;
+	box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
+	color: #FFFFFF;
+  	background-image: linear-gradient(to bottom right, purple, rebeccapurple);
+
+}
+
+.card {
+  
+	position: absolute;
+	top: 90px;
+	left: 60px;
+	height: 220px;
+	width: 280px;
+	background: #FFFFFF;
+	border-radius: 3px;
+	box-shadow: 10px 10px 15px 0 rgba(0,0,0,0.3);
+	overflow: hidden;
+
+	.header {
+
+		position: relative;
+		height: 60px;
+		width: 100%;
+		background: #F1BA64;
+		color: #FFFFFF;
+
+	}
+
+}
