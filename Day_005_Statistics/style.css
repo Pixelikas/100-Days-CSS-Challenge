@@ -11,6 +11,7 @@
 	box-shadow: 1px 2px 10px 0px rgba(0,0,0,0.3);
 	color: #FFFFFF;
   	background-image: linear-gradient(to bottom right, purple, rebeccapurple);
+	font-family: Arial;
 
 }
 
@@ -31,8 +32,53 @@
 		position: relative;
 		height: 60px;
 		width: 100%;
-		background: #F1BA64;
+		background: #E17F1D;
 		color: #FFFFFF;
+
+		.big {
+
+			position: absolute;
+			font-weight: 600;
+			font-size: 14px;
+			text-transform: uppercase;
+
+		}
+
+		.small {
+
+			position: absolute;
+			font-weight: 400;
+			font-size: 11px;
+
+		}
+
+		.title {
+
+			top: 12px;
+			left: 15px;
+
+		}
+
+		.date {
+
+			top: 30px;
+			left: 15px;
+
+		}
+
+		.type {
+
+			top: 14px;
+			right: 15px;
+
+		}
+
+		.value {
+
+			top: 28px;
+			right: 15px;
+
+		}
 
 	}
 
